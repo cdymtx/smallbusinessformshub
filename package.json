@@ -1,0 +1,17 @@
+{
+  "name": "small-business-forms-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Data-driven static site generator producing 2000 content topics and 2150+ HTML pages. Zero runtime dependencies (Node built-in modules only).",
+  "scripts": {
+    "build": "node build-site.mjs",
+    "preview": "node serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.38.7"
+  }
+}
